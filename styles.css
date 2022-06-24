@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik+Moonrocks&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 body {
   background: #1f2937;
@@ -13,10 +16,12 @@ main {
   top: 50%;
 }
 h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 p {
   font-size: 20px;
+  font-style: italic;
+  font-family: "Red Hat Display", sans-serif;
 }
 #btn {
   margin-top: 40px;
@@ -55,15 +60,22 @@ p {
   color: #10b981;
   margin-top: -10px;
   margin-bottom: 10px;
+  font-family: "Rubik Moonrocks", cursive;
 }
 @media (max-width: 500px) {
   body {
     margin: 0 auto;
   }
   .green {
+    margin-top: 1px;
     font-size: 30px;
+    line-height: 20px;
   }
   #chosenPassword {
     border-radius: 0;
+    width: 200px;
+  }
+  #btn {
+    width: 200px;
   }
 }
